@@ -43,7 +43,9 @@ yay -S google-chrome --needed --noconfirm
 yay -S anki --needed --noconfirm
 yay -S obsidian --needed --noconfirm
 yay -S dolphin --needed --noconfirm
-yay -S calibre --needed --noconfirm
+yay -S frog --needed --noconfirm
+yay -S calibre --needed --noconfir
+yay -S xournalpp --needed --noconfirm
 yay -S gradience-git --needed --noconfirm
 
 # setup gradience
