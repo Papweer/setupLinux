@@ -2,6 +2,7 @@
 
 sudo pacman -S yay --noconfirm --needed
 sudo pacman -S jq --noconfirm --needed
+sudo pacman -S base-devel --noconfirm --needed
 
 # install all gnome shell extensions
 extensions=(
@@ -42,6 +43,7 @@ yay -S google-chrome --needed --noconfirm
 yay -S anki --needed --noconfirm
 yay -S obsidian --needed --noconfirm
 yay -S dolphin --needed --noconfirm
+yay -S calibre --needed --noconfirm
 yay -S gradience-git --needed --noconfirm
 
 # setup gradience
