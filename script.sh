@@ -37,6 +37,7 @@ dconf load /org/gnome/shell/extensions/ArcMenu/ < .arc-menu
 
 # install packages
 yay -S visual-studio-code-bin --needed --noconfirm
+yay -S github-desktop-bin --needed --noconfirm
 yay -S google-chrome --needed --noconfirm
 yay -S anki --needed --noconfirm
 yay -S obsidian --needed --noconfirm
@@ -56,8 +57,8 @@ mkdir theme
 cd themes
 git clone https://github.com/Papweer/Marble-shell-theme.git
 cd Marble-shell-theme
-python install.py --filled --blue --mode=dark
+python install.py --mocha --sapphire
 
 # install Marble Shell Theme for gdm
-sudo python install.py -gdm --filled --blue --mode=dark
+sudo python install.py -gdm --mocha --sapphire
 sudo systemctl restart gdm
